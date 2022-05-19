@@ -1,0 +1,14 @@
+.body{
+    color: black;
+}
+.boxColumn {
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.box1 {
+    justify-content: center;
+    font-size: large;
+    flex-wrap:wrap ;
+}
