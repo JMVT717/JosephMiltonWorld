@@ -1,14 +1,29 @@
+.head{
+    background-color: rgb(205, 255, 252);
+    color: rgba(0, 136, 255, 0.817);
+    border-radius: 100px;
+    border-style:groove;
+    box-shadow: 30px;
+    text-align: center;
+}
+
 .body{
-    color: black;
-}
-.boxColumn {
-    flex-wrap: wrap;
-    justify-content: center;
-
+    background-color: black;
+    color:rgba(0, 136, 255, 0.817);
 }
 
-.box1 {
-    justify-content: center;
-    font-size: large;
-    flex-wrap:wrap ;
+.boxColumn{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+}
+.button{
+    background-color: rgba(0, 136, 255, 0.817);
+    border-radius: 75px;
+
+
+
+.list{
+    text-align: center;
+    flex-direction: column;
 }
