@@ -1,5 +1,5 @@
 .head{
-    background-color: rgb(205, 255, 252);
+    /* background-color: rgb(205, 255, 252); */
     color: rgba(0, 136, 255, 0.817);
     border-radius: 100px;
     border-style:groove;
@@ -16,14 +16,19 @@
     display:flex;
     flex-direction: column;
     width: 500px;
+    padding-left: 700px;
+    padding-top: 77px;
 }
+
 .button{
     background-color: rgba(0, 136, 255, 0.817);
     border-radius: 75px;
+    flex-basis: 88px;
+    font-size: 45px;
+}
 
-
-
-.list{
+.foot{
+    border-radius: 100px;
     text-align: center;
-    flex-direction: column;
+    border-style: groove;
 }
