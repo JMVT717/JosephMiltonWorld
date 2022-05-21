@@ -1,8 +1,8 @@
 .head{
-    /* background-color: rgb(205, 255, 252); */
     color: rgba(0, 136, 255, 0.817);
     border-radius: 100px;
     border-style:groove;
+    border-color: white;
     box-shadow: 30px;
     text-align: center;
 }
@@ -17,13 +17,15 @@
     flex-direction: column;
     width: 500px;
     padding-left: 400px;
-    padding-top: 70px;
-    padding-bottom: 95px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .button{
     background-color: rgba(0, 136, 255, 0.817);
-    border-radius: 75px;
+    border-radius: 100px;
+    border-color: white;
+    margin-bottom: 15px;
     flex-basis: 88px;
     font-size: 45px;
 }
@@ -32,4 +34,6 @@
     border-radius: 100px;
     text-align: center;
     border-style: groove;
+    border-color: white;
 }
+
