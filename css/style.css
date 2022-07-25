@@ -1,39 +1,82 @@
-.head{
-    color: rgba(0, 136, 255, 0.817);
-    border-radius: 100px;
-    border-style:groove;
-    border-color: white;
-    box-shadow: 30px;
-    text-align: center;
-}
-
-.body{
-    background-color: black;
+.home{
+    background-color: rgb(255, 255, 255);
     color:rgba(0, 136, 255, 0.817);
 }
 
-.boxColumn{
-    display:flex;
-    flex-direction: column;
-    width: 500px;
-    padding-left: 400px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+/* primary header */
+
+.primary-head{
+    align-items: center;
+    justify-content: space-between;
 }
 
-.button{
-    background-color: rgba(0, 136, 255, 0.817);
-    border-radius: 100px;
-    border-color: white;
-    margin-bottom: 15px;
-    flex-basis: 88px;
-    font-size: 45px;
-}
-
-.foot{
-    border-radius: 100px;
+.prime-head{
+    color: rgba(0, 136, 255, 0.842);
     text-align: center;
-    border-style: groove;
-    border-color: white;
+
 }
 
+
+
+.prime-nav{
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin:0;
+
+    background:hsl(0 0% 0% / 0.5);
+
+}
+
+
+
+@supports (backdrop-filter: blur(1em)) {
+    .prime-nav {
+      background: hsl(0, 0%, 100% / 0.1);
+      backdrop-filter: blur(1em);
+    }
+}
+
+
+
+.prime-nav a{
+    text-decoration: none;
+
+}
+
+.prime-nav a > span {
+    font-weight: 700;
+    margin-inline-end: 0.75em;
+}
+
+@media (max-width: 35em) {
+    .prime-nav {
+        --gap: 2em;
+
+       position: fixed;
+       z-index: 1000;
+       inset: 0 0 0 30%;
+      flex-direction: column;
+      padding: min(20vh, 10em) 2rem;
+    }
+
+    .mobile-nav-toggle {
+        position: absolute;
+        z-index: 9999;
+        background: ;
+        width: 1rem;
+        aspect-ratio: 1;
+        top:2rem;
+        right:2rem;
+    }
+}
+
+.flex{
+    display: inline-flex;
+    gap: var(--gap, 5em);
+}
+
+.footer{
+    padding-top: 35%;
+    text-align: center;
+}

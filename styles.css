@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+box-sizing: border-box;
+font-family: 'Acme', sans-serif;
+color: rgb(90, 166, 83);
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color:white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgb(199, 187, 59);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight:lighter;
+    border-bottom: 1px solid rgb(173, 169, 169);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+background-color: rgba( rgb(255, 255, 255),);
+background-image: url("pictures/background-blue.jpg");
+background-blend-mode:color-burn;
+background-size: cover;
+padding-bottom: 30px;
+}
+
+.band-name{
+    text-align: center;
+    margin: 5px;
+    margin-left: 25px;
+    font-size: 4em;
+}
+
+.content-sect {
+    margin: 1em;
+    text-align:center;
+}
+
+.container{
+    max-width: 975px;
+    margin: 15px;
+    padding: 0, .25em;
+}
+
+.sect-header{
+    font-weight: normal;
+    text-align:center;
+}
+
+.about-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    background-color: rgb(199, 188, 59);
+    padding-bottom: 20px;
+    padding-top: 0%;
+    align-items: center;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items:center;
+}
+
+.main-footer-container ul{
+    /* flex-grow: 0; */
+    text-align: center;
+}
+
+.footer-nav li{
+    padding: 0, 25px;
+    align-items: center;
+}
+
+.side-bar {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position:absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 275px; /* Stay at the top */
+    right: 0;
+    background-color: rgb(0, 0, 0); /* Black */
+    /* overflow-x: hidden; Disable horizontal scroll */
+    padding-top: 1px;
+}
+
+.side-bar-nav {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.bs-block{
+    margin: 115px;
+}
+
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .47em;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.spot-track{
+    margin-left: 315PX;
+}
