@@ -21,19 +21,22 @@ html,body {
 .nav a {
     display: inline-block;
     padding: .5em;
-    color:white;
+    color:black;
     text-decoration: none;
 }
 
 .nav a:hover{
     background-color: rgb(199, 187, 59);
+    border-radius: 100px;
 }
 
 .main-nav{
     text-align: center;
     font-size: 1.1em;
     font-weight:lighter;
-    border-bottom: 1px solid rgb(173, 169, 169);
+    /* border-bottom:10px; */
+    border-style:none
+    /* border-radius: 50px; */
 }
 
 .main-nav li {
@@ -41,23 +44,41 @@ html,body {
 }
 
 .main-header {
-background-color: rgba( rgb(255, 255, 255),);
-background-image: url("pictures/background-blue.jpg");
-background-blend-mode:color-burn;
-background-size: cover;
+/* background-color:rgb(35, 35, 35); */
+/* background-blend-mode:color-burn; */
+/* background-size: contain; */
 padding-bottom: 30px;
 }
 
 .band-name{
     text-align: center;
-    margin: 5px;
+    margin: 15px;
     margin-left: 25px;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .content-sect {
-    margin: 1em;
+    margin: 7em;
     text-align:center;
+    display: flex;
+    flex: 8;
+    gap: 2rem;
+}
+
+.content-sect2 {
+    margin: 7em;
+    text-align:center;
+    display: flex;
+    flex: 8;
+    gap: 9rem;
+}
+
+.player{
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    height: 215px;
+    width: 300px;
 }
 
 .container{
@@ -68,7 +89,16 @@ padding-bottom: 30px;
 
 .sect-header{
     font-weight: normal;
-    text-align:center;
+    text-align:left;
+    padding-left: 75px;
+    padding-bottom: 45PX;
+}
+
+.sect-headerV{
+    font-weight: normal;
+    text-align:right;
+    padding-right: 125px;
+
 }
 
 .about-image{
@@ -80,7 +110,7 @@ padding-bottom: 30px;
 }
 
 .main-footer{
-    background-color: rgb(199, 188, 59);
+    /* background-color: rgb(199, 188, 59); */
     padding-bottom: 20px;
     padding-top: 0%;
     align-items: center;
@@ -88,6 +118,7 @@ padding-bottom: 30px;
 
 .main-footer-container{
     display: flex;
+    gap: 60rem;
     align-items:center;
 }
 
@@ -101,17 +132,17 @@ padding-bottom: 30px;
     align-items: center;
 }
 
-.side-bar {
-    height: auto; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position:absolute; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 275px; /* Stay at the top */
+/* .side-bar {
+    height: auto; Full-height: remove this if you want "auto" height
+    width: 160px; Set the width of the sidebar
+    position:absolute; Fixed Sidebar (stay in place on scroll)
+    z-index: 1; Stay on top
+    top: 275px; Stay at the top
     right: 0;
-    background-color: rgb(0, 0, 0); /* Black */
-    /* overflow-x: hidden; Disable horizontal scroll */
+    background-color: rgb(0, 0, 0); Black
+    overflow-x: hidden; Disable horizontal scroll
     padding-top: 1px;
-}
+} */
 
 .side-bar-nav {
     padding: 6px 8px 6px 16px;
@@ -136,4 +167,5 @@ padding-bottom: 30px;
 
 .spot-track{
     margin-left: 315PX;
+    padding-bottom: 40PX;
 }
