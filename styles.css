@@ -118,7 +118,7 @@ padding-bottom: 30px;
 
 .main-footer-container{
     display: flex;
-    gap: 60rem;
+    gap: 55rem;
     align-items:center;
 }
 
@@ -166,6 +166,19 @@ padding-bottom: 30px;
 }
 
 .spot-track{
-    margin-left: 315PX;
-    padding-bottom: 40PX;
+    /* display: flex;
+    flex: 4; */
+    margin-left: 300PX;
+    padding-bottom: 100PX;
+}
+
+.spot{
+    /* padding: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.spot2{
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
