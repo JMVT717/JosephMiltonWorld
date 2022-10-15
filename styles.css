@@ -173,16 +173,16 @@ padding-bottom: 30px;
 .spot-track{
     /* display: flex;
     flex: 4; */
-    margin-left: 300PX;
+    margin-left: 285PX;
     padding-bottom: 100PX;
-    padding-left: 65px;
+    padding-left: 50px;
 }
 
 .spot{
     /* padding: 100px; */
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 .spot2{
