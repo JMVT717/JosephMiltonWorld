@@ -148,12 +148,12 @@ padding-bottom: 30px;
 
 .side-bar-nav {
     /* padding: 6px 8px px 16px; */
-    padding-left: 215px;
+    padding-left: 115px;
     text-decoration: none;
     font-size: 20px;
     display: flex;
     flex: 8;
-    gap: 9rem;
+    gap: 6rem;4
 }
 
 .bs-block{
