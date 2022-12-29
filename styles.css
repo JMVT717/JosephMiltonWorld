@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 * {
+margin:0;
+padding:0;
 box-sizing: border-box;
 font-family: 'Acme', sans-serif;
 color: rgb(90, 166, 83);
 }
 
-.img{
-    width: 100vh;
-}
 
-html,body {
-    margin:0;
-    padding:0;
+
+html{
+
+}
+body {
+width: 100%;
+min-height: 100vh;
 }
 
 .nav ul{
