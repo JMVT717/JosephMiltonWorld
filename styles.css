@@ -224,5 +224,7 @@ padding-bottom: 30px;
 .spot2{
     padding-top: 50px;
     padding-bottom: 100px;
-    padding-left: 15px;
+    padding-left: 120px;
+    margin: 1%;
+    align-items: center;
 }
