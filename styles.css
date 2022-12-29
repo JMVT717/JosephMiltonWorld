@@ -6,7 +6,9 @@ font-family: 'Acme', sans-serif;
 color: rgb(90, 166, 83);
 }
 
-
+.img{
+    width: 100vh;
+}
 
 html,body {
     margin:0;
