@@ -6,6 +6,8 @@ font-family: 'Acme', sans-serif;
 color: rgb(90, 166, 83);
 }
 
+
+
 html,body {
     margin:0;
     padding:0;
@@ -44,9 +46,7 @@ html,body {
 }
 
 .main-header {
-/* background-color:rgb(35, 35, 35); */
-/* background-blend-mode:color-burn; */
-/* background-size: contain; */
+background-size: contain;
 padding-bottom: 30px;
 }
 
@@ -160,7 +160,7 @@ padding-bottom: 30px;
     font-size: 20px;
     display: flex;
     flex: 8;
-    gap: 6rem;4
+    gap: 6rem;
 }
 
 .bs-block{
