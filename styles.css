@@ -16,6 +16,11 @@ html{
 body {
 width: 100%;
 min-height: 100vh;
+
+}
+
+.img{
+
 }
 
 .nav ul{
@@ -27,7 +32,7 @@ min-height: 100vh;
 }
 .nav a {
     display: inline-block;
-    padding: .5em;
+    padding: .10em;
     color:black;
     text-decoration: none;
 }
@@ -48,11 +53,13 @@ min-height: 100vh;
 
 .main-nav li {
     padding: 0 5%;
+
 }
 
 .main-header {
 background-size: contain;
 padding-bottom: 30px;
+/* border-radius: 50px; */
 }
 
 .band-name{
@@ -63,20 +70,21 @@ padding-bottom: 30px;
 }
 
 .content-sect {
-    margin: 7em;
+    margin:1%;
+    padding-left: 45px;
     text-align:center;
-    display: flex;
+    display:inline-flex;
     flex: 8;
     gap: 2rem;
 }
 
 .content-sect2 {
-    margin: 4em;
-    padding-left: 30px;
+    margin: 1%;
+    padding-left: 125px;
     text-align:center;
     display: flex;
     flex: 8;
-    gap: 9rem;
+    gap: 7rem;
 }
 
 .player{
@@ -84,7 +92,7 @@ padding-bottom: 30px;
     overflow: hidden;
     z-index: 1;
     height: 215px;
-    width: 300px;
+    /* width: 300px; */
 }
 
 .container{
@@ -93,21 +101,21 @@ padding-bottom: 30px;
     padding: 0, .25em;
 }
 
-.sect-header{
+.sect-headeri{
     font-weight: normal;
     text-align:left;
     padding-left: 75px;
     padding-bottom: 45PX;
 }
 
-.sect-headerV{
+.sect-headerii{
     font-weight: normal;
     text-align:right;
-    padding-right: 75px;
+    padding-right: 100px;
     padding-bottom: 45px;
 }
 
-.sect-headerT{
+.sect-headeriii{
     font-weight: normal;
     text-align:right;
     padding-right: 125px;
@@ -183,11 +191,12 @@ padding-bottom: 30px;
 }
 
 .spot-track{
-    /* display: flex;
-    flex: 4; */
-    margin-left: 285PX;
+    display:inline-flex;
+    flex: 4;
+    align-tracks: center;
     padding-bottom: 100PX;
     padding-left: 50px;
+    margin: 1%;
 }
 
 .spot{
