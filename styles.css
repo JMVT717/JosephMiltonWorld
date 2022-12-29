@@ -10,18 +10,20 @@ color: rgb(90, 166, 83);
 
 
 
-html{
+/* html{
 
-}
+} */
 body {
 width: 100%;
 min-height: 100vh;
 
 }
 
-.img{
-
-}
+/* .img{
+display: block;
+background-image: image("pictures\vizions-cover.jpg");
+image-orientation: flip;
+} */
 
 .nav ul{
     margin: 0;
@@ -71,11 +73,24 @@ padding-bottom: 30px;
 
 .content-sect {
     margin:1%;
-    padding-left: 45px;
-    text-align:center;
+    /* padding-left: 20px; */
+    /* text-align:center; */
+    /* align-items: center; */
+    /* align-content: space-between; */
     display:inline-flex;
-    flex: 8;
-    gap: 2rem;
+    flex: 4;
+    gap: 3%;
+}
+
+.content-sectiv {
+    margin:1%;
+    padding-left: 20px;
+    text-align:center;
+    align-items: center;
+    align-content: space-between;
+    display:inline-flex;
+    flex: 4;
+    gap: 3%;
 }
 
 .content-sect2 {
@@ -194,7 +209,7 @@ padding-bottom: 30px;
     display:inline-flex;
     flex: 4;
     align-tracks: center;
-    padding-bottom: 100PX;
+    /* padding-bottom: 100PX; */
     padding-left: 50px;
     margin: 1%;
 }
